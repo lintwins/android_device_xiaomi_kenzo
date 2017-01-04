@@ -39,5 +39,9 @@ TARGET_SYSTEM_PROP += device/xiaomi/kenzo/system.prop
 # Sepolicy
 BOARD_SEPOLICY_DIRS += device/xiaomi/kenzo/sepolicy
 
+# PowerHAL
+TARGET_POWERHAL_VARIANT := kenzo
+TARGET_USES_INTERACTION_BOOST := true
+
 # inherit from the proprietary version
 -include vendor/xiaomi/kenzo/BoardConfigVendor.mk
