@@ -53,10 +53,9 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, device/xiaomi/msm8956-common/msm8956.mk)
 
 # VR
- PRODUCT_PACKAGES += \
-     vr.msm8952
+PRODUCT_PACKAGES += \
+    vr.msm8956
 
-# Vulkan
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.vulkan.level-0.xml:system/etc/permissions/android.hardware.vulkan.level.xml \
     frameworks/native/data/etc/android.hardware.vulkan.version-1_0_3.xml:system/etc/permissions/android.hardware.vulkan.version.xml
